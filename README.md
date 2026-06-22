@@ -15,6 +15,31 @@ It is designed as a portfolio project that demonstrates agentic research workflo
 - **Free Tier Guardrails**: Request rate limiting (5/hour, 20/day) and budget hard-stop at $4.90
 - **Cost Transparency**: Every response shows token usage and remaining free-tier budget
 
+## 🎬 Live Demo
+
+### Research Terminal Interface
+![AlphaAgent Research Console](./images/research_console.png)
+*Research console showing NVDA deep analysis with real-time price data, market metrics, and 1Y stock chart*
+
+### Agent Reasoning in Action
+![Deep Research Output](./images/deep_research.png)
+*ReAct agent output for MSFT showing structured research note with company overview, financials, valuation, and investment summary*
+
+### Multi-Agent Debate Workflow
+
+**Bull Agent Thesis**
+![Bull Agent Output](./images/bull_agent.png)
+*Bull agent constructing strongest positive investment case with growth catalysts and competitive moats*
+
+**Bear Agent Thesis**
+![Bear Agent Output](./images/bear_agent.png)
+*Bear agent constructing strongest negative case with deteriorating fundamentals and competitive threats*
+
+**Arbiter Verdict**
+![Arbiter Verdict](./images/arbiter_verdict.png)
+*Arbiter agent weighing both sides and delivering final investment verdict with conviction level and key catalysts*
+
+
 ## Architecture
 
 ```text
