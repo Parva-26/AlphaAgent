@@ -42,14 +42,14 @@ alphaagent/
 
 ## Free API Strategy
 
-AlphaAgent intentionally avoids paid market data and paid search APIs.
+AlphaAgent is intentionally designed around completely **free and open data sources**:
 
-- LLM: Llama 3.3 70B through Groq
-- Market data: yfinance
-- News/search: DuckDuckGo via `duckduckgo-search`
-- No OpenAI
-- No Tavily
-- No paid data vendors
+| Component | Provider | Cost |
+|-----------|----------|------|
+| **LLM** | Groq (Llama 3.3 70B) | Free tier with usage limits |
+| **Market Data** | yfinance | Free |
+| **News/Search** | DuckDuckGo | Free |
+| **No Paid Services** | ❌ OpenAI, ❌ Tavily, ❌ Bloomberg | $0.00 |
 
 ## Cost Tracking & Free Tier
 
