@@ -6,14 +6,14 @@ It is designed as a portfolio project that demonstrates agentic research workflo
 
 ## Features
 
-- Single-stock deep research workflow using a ReAct analyst agent
-- Multi-agent debate workflow with bull, bear, and arbiter agents
-- LangGraph orchestration for transparent research pipelines
-- yfinance market data, financial statement, technical, analyst, and valuation tools
-- DuckDuckGo news and SEC filing search tools
-- Streamlit finance-terminal interface with price chart and market snapshot
-- Built-in request rate limiting and Groq cost tracking
-- Hard budget stop before the configured free-tier ceiling
+- **Deep Research Agent**: ReAct-based analyst that autonomously gathers and synthesizes stock research
+- **Multi-Agent Debate System**: Bull/Bear/Arbiter agents construct and weigh investment theses
+- **LangGraph Orchestration**: Transparent, stateful agent coordination with parallel execution
+- **Real-Time Market Data**: Price, financials, technical analysis, and analyst consensus via yfinance
+- **Intelligent Search**: News and SEC filing discovery via DuckDuckGo
+- **Futuristic UI**: Dark-themed Streamlit terminal with cyan/purple accents and live cost tracking
+- **Free Tier Guardrails**: Request rate limiting (5/hour, 20/day) and budget hard-stop at $4.90
+- **Cost Transparency**: Every response shows token usage and remaining free-tier budget
 
 ## Architecture
 
