@@ -154,3 +154,11 @@ The debate graph runs a sequence of agents:
 AlphaAgent is for education and portfolio demonstration only. It does not provide financial advice, investment recommendations, or a substitute for professional diligence.
 
 Market data from yfinance and search results from DuckDuckGo may be delayed, incomplete, or unavailable. Always verify critical information from primary filings and official company releases.
+
+## License
+
+MIT License - Feel free to fork, modify, and build upon this project.
+
+## Contributing
+
+This is a portfolio project, but feedback is welcome. Open an issue or reach out directly.
